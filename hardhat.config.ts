@@ -5,6 +5,9 @@ import "@nomiclabs/hardhat-solhint";
 import "solidity-coverage";
 import "dotenv/config";
 
+// Importing Chainlink tasks
+import "@chainlink/hardhat-chainlink";
+
 // Importing custom tasks
 import "./tasks/utils/accounts";
 import "./tasks/utils/balance";
